@@ -1,0 +1,23 @@
+{
+  "_doc": [
+    "把本文件复制为 novels.json（被 .gitignore 忽略），按你的小说填写。",
+    "字段：",
+    "  old_name = output_easyvoice/ 下原始目录名（即 batch_easyvoice 跑出来的子目录）",
+    "  new_name = 改名后的目标书名（rename 脚本会把目录改成它，tag/embed_cover 也按它处理）",
+    "  artist   = 作者笔名，可选；留空则 ID3 tag 不写 artist",
+    "封面图按 new_name 命名放到 covers/ 下：covers/<new_name>.jpg / .png / .webp",
+    "想跳过某本（例如还在转换中）：从 novels 列表里移除对应项即可"
+  ],
+  "novels": [
+    {
+      "old_name": "示例-原始目录名_完结_作者：示例作者_某某章",
+      "new_name": "示例-新书名",
+      "artist": "示例作者"
+    },
+    {
+      "old_name": "另一本无作者示例_精校版",
+      "new_name": "另一本无作者示例",
+      "artist": ""
+    }
+  ]
+}

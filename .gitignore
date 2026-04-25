@@ -1,0 +1,30 @@
+.DS_Store
+__pycache__/
+*.pyc
+*.pyo
+
+# 一次性脚本生成的 log / 备份
+*.log
+*.bak
+*.tmp
+*.tmp.mp3
+*__cv_tmp__*
+*__tag_tmp__*
+
+# 不进 repo：用户的小说书目配置（含书名/作者，私人）
+config/novels.json
+
+# 不进 repo：用户的封面图（私人收藏 / 来自第三方）
+covers/*
+!covers/.gitkeep
+
+# 不进 repo：实际数据（小说原文 / 输出 mp3）— 用户 NOVEL_ROOT 默认在 ~/Documents/novel，与本 repo 分离
+txt/
+input/
+output/
+output_easyvoice/
+
+# IDE / 编辑器
+.idea/
+.vscode/
+*.swp

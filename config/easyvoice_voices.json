@@ -1,0 +1,17 @@
+{
+  "roles": {
+    "narrator":     {"voice": "zh-CN-YunyangNeural",  "desc": "旁白",   "rate": "-5%",  "pitch": "-2Hz", "volume": "+0%"},
+    "male_main":    {"voice": "zh-CN-YunjianNeural",   "desc": "男主",   "rate": "-3%",  "pitch": "-2Hz", "volume": "+0%"},
+    "male_side":    {"voice": "zh-CN-YunxiNeural",     "desc": "男配",   "rate": "+0%",  "pitch": "+0Hz", "volume": "+0%"},
+    "male_extra":   {"voice": "zh-CN-YunxiaNeural",    "desc": "男配2",  "rate": "+0%",  "pitch": "+0Hz", "volume": "+0%"},
+    "female_main":  {"voice": "zh-CN-XiaoxiaoNeural",  "desc": "女主",   "rate": "-5%",  "pitch": "+2Hz", "volume": "+0%"},
+    "female_side":  {"voice": "zh-CN-XiaoyiNeural",    "desc": "女配",   "rate": "+0%",  "pitch": "+2Hz", "volume": "+0%"},
+    "female_extra": {"voice": "zh-CN-XiaoxiaoNeural",  "desc": "女配2",  "rate": "+0%",  "pitch": "+0Hz", "volume": "+0%"},
+    "unknown":      {"voice": "zh-CN-YunxiNeural",     "desc": "未知角色","rate": "+0%",  "pitch": "+0Hz", "volume": "+0%"}
+  },
+  "default_params": {
+    "rate": "+0%",
+    "pitch": "+0Hz",
+    "volume": "+0%"
+  }
+}
